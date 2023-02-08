@@ -370,7 +370,7 @@ export const constantRouterMap = [
       {
         path: 'home',
         name: 'TestHome',
-        component: () => import('@/views/Home')
+        component: () => import('@/views/test')
       }
     ]
   },
