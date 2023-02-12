@@ -10,7 +10,6 @@ import { VueAxios } from "@/utils/request"
 
 require('@jeecg/antd-online-mini')
 require('@jeecg/antd-online-mini/dist/OnlineForm.css')
-require('aframe')
 
 import Antd, { version } from 'ant-design-vue'
 console.log('ant-design-vue version:', version)
