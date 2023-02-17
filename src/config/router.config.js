@@ -371,6 +371,11 @@ export const constantRouterMap = [
         path: 'home',
         name: 'TestHome',
         component: () => import('@/views/test')
+      },
+      {
+        path: 'scene',
+        name: 'scene',
+        component: () => import('@/views/scene.vue')
       }
     ]
   },
