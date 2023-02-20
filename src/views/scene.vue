@@ -33,7 +33,8 @@ export default {
   name: "CardList",
   data() {
     return {
-      dataSource
+      dataSource,
+      gitTest: 'test push'
     }
   }
 }
