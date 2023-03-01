@@ -2,7 +2,7 @@
   <div>
     <a-scene background="color: #ECECEC">
       <a-assets timeout="10000">
-        <a-asset-item id="cityModel" src="/static/01.glb"></a-asset-item>
+        <a-asset-item id="cityModel" src="/static/01.gltf"></a-asset-item>
       </a-assets>
       <a-entity camera look-controls>
         <a-entity id='1' gltf-model="#cityModel" load-model position='2 0 -5' rotation='0 180 0' scale='0.2 0.2 0.2'></a-entity>
