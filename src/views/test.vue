@@ -5,11 +5,11 @@
         <a-asset-item id="cityModel" src="/static/01.gltf"></a-asset-item>
       </a-assets>
       <a-entity camera look-controls>
-        <a-entity id='1' gltf-model="#cityModel" load-model position='2 0 -5' rotation='0 180 0' scale='0.2 0.2 0.2'></a-entity>
+        <a-entity id='1' gltf-model="#cityModel" load-model position='2 0 -5' rotation='0 180 0' scale='0.5 0.5 0.5'></a-entity>
       </a-entity>
-      <a-entity id='2' gltf-model="#cityModel" load-model position='2 2 -5' rotation='0 90 0' scale='0.2 0.2 0.2'></a-entity>
-      <a-entity id='3' gltf-model="#cityModel" load-model position='5 2 -5' rotation='0 45 0' scale='0.2 0.2 0.2'></a-entity>
-      <a-entity id='4' gltf-model="#cityModel" load-model position='5 0 -5' rotation='0 135 0' scale='0.1 0.1 0.1'></a-entity>
+      <a-entity id='2' gltf-model="#cityModel" load-model position='2 2 -5' rotation='0 90 0' scale='0.5 0.5 0.5'></a-entity>
+      <a-entity id='3' gltf-model="#cityModel" load-model position='5 2 -5' rotation='0 45 0' scale='0.5 0.5 0.5'></a-entity>
+      <a-entity id='4' gltf-model="#cityModel" load-model position='5 0 -5' rotation='0 135 0' scale='0.5 0.5 0.5'></a-entity>
 
       <a-entity camera look-controls>
         <a-entity geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1"
@@ -32,7 +32,7 @@ export default {
     AFRAME.registerComponent('load-model', {
       init () {
         // Wait for model to load.
-        this.el.setAttribute('gltf-model', '/static/01.glb')
+        this.el.setAttribute('gltf-model', '/static/01.gltf')
       }
     });
   }
